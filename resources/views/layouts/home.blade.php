@@ -81,7 +81,7 @@
                         <a href="{{ URL::route('rol.index') }}"><i class="fa fa-fw fa-edit"></i> Roles</a>
                     </li>
                     <li>
-                        <a href="bootstrap-elements.html"><i class="fa fa-fw fa-unlock-alt"></i> Permiso</a>
+                        <a href="{{ URL::route('permisos.index') }}"><i class="fa fa-fw fa-unlock-alt"></i> Permiso</a>
                     </li>
                     <li>
                         <a href="{{ URL::route('clientes.index') }}"><i class="fa fa-fw fa-users"></i> Clientes</a>

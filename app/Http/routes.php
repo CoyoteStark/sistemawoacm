@@ -27,6 +27,7 @@ Route::resource('users', 'usuariosController');
 Route::resource('clientes', 'clientesController');
 Route::resource('social', 'SocialController');
 Route::resource('rol', 'rolController');
+Route::resource('permisos', 'permisosController');
 });
 
 //rutas de login
