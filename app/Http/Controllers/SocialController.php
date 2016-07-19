@@ -67,7 +67,7 @@ class SocialController extends Controller
     
     public function update(Request $request, $id)
     {
-        $rd = RedSocial::findOrFail($id);
+        $rd = RedSocial::findOrfail($id);
         $data = $request->all();
         $rd->fill($data);
         $rd->save();

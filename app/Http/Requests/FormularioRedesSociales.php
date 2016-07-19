@@ -4,7 +4,7 @@ namespace App\Http\Requests;
 use App\Http\Requests\Request;
 
 
-Class FormularioRedesSociales extends Request{
+class FormularioRedesSociales extends Request{
 
 	public function rules(){
 		return[

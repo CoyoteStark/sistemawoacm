@@ -1,6 +1,6 @@
 <a type="button" class="btn btn-default" href="{{ URL::route('rol.edit', [$rol->id]) }}"><i class="fa fa-pencil-square fa-2x"></i></a>
 
-<a type="button" class="formConfirm" data-form="#frmDelete-{{$rol-edit}}"><i class="formConfirm fa fa-trash fa-2x btn btn-default" href=""></i></a>
+<a type="button" class="formConfirm" data-form="#frmDelete-{{$rol->id}}"><i class="formConfirm fa fa-trash fa-2x btn btn-default" href=""></i></a>
 
 <!-- Permisos Rol queda pendiente-->
 
